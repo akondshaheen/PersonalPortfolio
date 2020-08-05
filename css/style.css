@@ -1,6 +1,9 @@
 /* to import fonts*/
 @import url(./font.css);
 
+/* connecting css variables*/
+@import url(./secondary_css/_variable.css);
+
 /* start css for navigation*/
 .header_section .main-menu .navbar .navbar-brand {
   padding: 0 2rem 0 5rem;
@@ -10,11 +13,24 @@
   padding: 1rem 20rem;
 }
 .header_section .main-menu .nav-item .nav-link {
-  font-family: "Roboto", cursive;
+  font-family: var(--roboto);
   text-transform: uppercase;
   font-weight: 500;
   padding: 1.7rem;
-  color: black;
+  color: var(--title-color);
+}
+.header_section .main-menu .navbar-nav .active a {
+  background: var(--gradient-color);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.header_section .main-menu .navbar-nav a:hover {
+  background: var(--gradient-color);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
 }
 
 /* end css for navigation*/

@@ -13,7 +13,7 @@ body {
   --title-color: #141313;
   --text-color: #777777;
   --border-color: #201f17;
-  --gradiant-color: linear-gradiant(90deg, #4458dc 0%, #854fee 100%);
+  --gradient-color: linear-gradient(90deg, #4458dc 0%, #854fee 100%);
   --shadow-color: 0px 10px 30px rgba(57, 56, 61, 0.205);
 
   /* variable of font*/
